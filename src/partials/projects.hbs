@@ -1,0 +1,12 @@
+<section class="projects fondo" id="projects">
+    <h2>Proyectos</h2>
+    <div class="projects-container">
+        {{#each proyectos}}
+        <div class="proy caja">
+            <h3>{{titulo}}</h3>
+            <p>{{descripcion}}</p>
+            <img src="{{img}}" alt="Proyecto-{{titulo}}">
+        </div>
+        {{/each}}
+    </div>
+</section>

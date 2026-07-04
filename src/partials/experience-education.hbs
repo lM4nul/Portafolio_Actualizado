@@ -1,0 +1,64 @@
+<section class="Experience-Education fondo" id="experience-education">
+    
+    <div class="left-column-education">
+        <h2>Educación</h2>
+        <div class="content-cajas">
+            {{#each estudios}}
+            <div class="content-item caja">
+                <h3>{{titulo}}</h3>
+                <p>{{institucion}}</p>
+                <ul>
+                    {{#each detalles}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+            {{/each}}
+            
+            <div class="content-item caja">
+                <h3>Certificaciones y Cursos</h3>
+                <ul>
+                    {{#each certificaciones}}
+                    <li>
+                        {{#if isBold}}<strong>{{name}}</strong>{{else}}{{name}}{{/if}}
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-column-experience">
+        <h2>Habilidades</h2>
+        <div class="content-cajas">
+            <div class="content-item caja">
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    {{#each habilidadesTecnicas}}
+                    <li>
+                        <strong>{{label}}</strong>
+                        {{#each iconos}}
+                        <img src="{{src}}" alt="{{alt}}">
+                        {{/each}}
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+            
+            <div class="content-item caja">
+                <h3>Redes y Soporte Técnico (Hardware)</h3>
+                <ul>
+                    {{#each habilidadesSoporte}}
+                    <li>{{{this}}}</li> {{/each}}
+                </ul>
+            </div>
+
+            <div class="content-item caja">
+                <h3>Herramientas de Creación Digital</h3>
+                <ul>
+                    <li><strong>Edición y Diseño Multimedia:</strong> Adobe Photoshop, Filmora X.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
