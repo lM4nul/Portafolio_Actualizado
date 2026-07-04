@@ -25,30 +25,30 @@ export default {
         { 
             label: "Lenguajes de Programación:", 
             iconos:[
-                { src: "../assets/Habilidades/C.png", alt: "C#" },
-                { src: "../assets/Habilidades/kotlin.png", alt: "Kotlin" },
-                { src: "../assets/Habilidades/java.png", alt: "Java" }
+                { src: "./assets/Habilidades/C.png", alt: "C#" },
+                { src: "./assets/Habilidades/kotlin.png", alt: "Kotlin" },
+                { src: "./assets/Habilidades/java.png", alt: "Java" }
             ]
         },
         { 
             label: "Desarrollo Web y Diseño UI/UX:", 
             iconos: [
-                { src: "../assets/Habilidades/html-5.png", alt: "HTML5" },
-                { src: "../assets/Habilidades/css-3.png", alt: "CSS" },
-                { src: "../assets/Habilidades/figma.png", alt: "Figma" }
+                { src: "./assets/Habilidades/html-5.png", alt: "HTML5" },
+                { src: "./assets/Habilidades/css-3.png", alt: "CSS" },
+                { src: "./assets/Habilidades/figma.png", alt: "Figma" }
             ]
         },
         { 
             label: "Bases de Datos y Análisis de Datos:", 
             iconos: [
-                { src: "../assets/Habilidades/SQL.png", alt: "SQL" },
-                { src: "../assets/Habilidades/PoweBi.png", alt: "Power BI" }
+                { src: "./assets/Habilidades/SQL.png", alt: "SQL" },
+                { src: "./assets/Habilidades/PoweBi.png", alt: "Power BI" }
             ]
         },
         { 
             label: "Herramientas de Control de Versiones:", 
             iconos: [
-                { src: "../assets/Habilidades/github.png", alt: "GitHub" }
+                { src: "./assets/Habilidades/github.png", alt: "GitHub" }
             ]
         }
     ],
